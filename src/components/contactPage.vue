@@ -1,35 +1,8 @@
 <script setup>
-
-import SkillBar from '@/components/skillBar.vue'
-
-const Competences = [
-  {
-    langage: "HTML, CSS",
-    percentage: "width : 70%",
-  },
-  {
-    langage: "Vuejs",
-    percentage: "width : 70%",
-  },
-  {
-    langage: "JavaScript",
-    percentage: "width : 70%",
-  },
-  {
-    langage: "Python",
-    percentage: "width : 80%",
-  },
-  {
-    langage: "Java",
-    percentage: "width : 60%",
-  },
-];
-
-
 </script>
 
 <template>
-<div class="flex inline-block static ">
+  <div class="flex inline-block static ">
     <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white rounded top-0 -left-2/20 z-10">
       <fa icon="fa-solid fa-user my-2"  />
       <span class="">About</span>
@@ -53,8 +26,8 @@ const Competences = [
         </li>
       </ul>
       <div class="bg-white flex justify-end rounded-b-xl">
-      <a class="text-[#5f240f] rounded-full px-1 hover:translate-x-1.5 hover:transition-colors- hover:text-[#5f240f] mb-4 mr-4" href="mailto:langfrancoisfrederic@gmail.com">CONTACT ME
-        <fa icon="fa-solid fa-arrow-right" /></a>
+        <a class="text-[#5f240f] rounded-full px-1 hover:translate-x-1.5 hover:transition-colors- hover:text-[#5f240f] mb-4 mr-4" href="mailto:langfrancoisfrederic@gmail.com">CONTACT ME
+          <fa icon="fa-solid fa-arrow-right" /></a>
       </div>
     </div>
     <div class="bg-white text-left basis-2/3 p-5 rounded-xl ">
@@ -80,13 +53,11 @@ const Competences = [
         </div>
       </div>
       <div class="text-3xl font-bold my-4 ml-2"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent">Mes</span> compétences :</div>
-      <skillBar :datas="Competences" title="compétences" class="mx-2"></skillBar>
     </div>
 
-</div>
+  </div>
 </template>
 
-
-
 <style scoped>
+
 </style>

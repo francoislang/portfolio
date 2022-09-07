@@ -19,7 +19,7 @@ defineProps({
 <template>
   <div class="grid grid-cols-2">
     <div v-for="(data, dataIndex) in datas" :key="dataIndex">
-      <div class="my-5 text-left font-bold">{{ data.langage }}</div>
+      <div class="my-4 text-left font-bold">{{ data.langage }}</div>
       <div class="flex w-3/4 rounded-xl bg-gray-200 text-xs">
         <div
             id="experienceBar"
