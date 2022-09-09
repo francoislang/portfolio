@@ -1,15 +1,10 @@
 <script setup>
-import MainPage from '@/components/mainPage.vue'
-
 </script>
 
 <template class="relative">
   <div class="absolute inset-0 bg-center bg-cover bg-[url('@/assets/backgroundScreen.jpeg')]">
-    <mainPage class="absolute inset-1/6" />
+    <router-view class="absolute inset-1/6" />
   </div>
-
-
-
 
 
 </template>

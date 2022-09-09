@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
 import "./index.css";
+import router from "@/router/index";
 
 // fontawesome imports -------------------------------------------------------------------------------------------------
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -12,4 +13,4 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 
 library.add(fas, fab, far);
 
-createApp(App).component("fa", FontAwesomeIcon).mount("#app");
+createApp(App).use(router).component("fa", FontAwesomeIcon).mount("#app");

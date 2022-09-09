@@ -29,16 +29,24 @@ const Competences = [
 </script>
 
 <template>
-<div class="flex inline-block static ">
+  <div class="flex inline-block static ">
     <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white rounded top-0 -left-2/20 z-10">
-      <fa icon="fa-solid fa-user my-2"  />
-      <span class="">About</span>
-      <fa icon="fa-solid fa-briefcase" class="my-2" />
-      <span>Work</span>
-      <fa icon="fa-solid fa-file" class="my-2" />
-      <span>Resume</span>
-      <fa icon="fa-solid fa-at" class="my-2"/>
-      <span>Contact</span>
+      <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+        <fa icon="fa-solid fa-user my-2"  />
+        <span class="">About</span>
+      </router-link>
+      <router-link to="/WorkPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+        <fa icon="fa-solid fa-briefcase" class="my-2" />
+        <span>Work</span>
+      </router-link>
+      <router-link to="/ResumePage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]" >
+        <fa icon="fa-solid fa-file" class="my-2" />
+        <span>Resume</span>
+      </router-link>
+      <router-link to="/ContactPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+        <fa icon="fa-solid fa-at" class="my-2"/>
+        <span>Contact</span>
+      </router-link>
     </div>
 
     <div class=" bg-white drop-shadow-xl scale-110 rounded-xl flex-row basis-1/3 ">
@@ -57,7 +65,7 @@ const Competences = [
         <fa icon="fa-solid fa-arrow-right" /></a>
       </div>
     </div>
-    <div class="bg-white text-left basis-2/3 p-5 rounded-xl ">
+    <div class="bg-white text-left basis-2/3 p-5 rounded-xl overflow-y-hidden overflow-y-scroll">
       <div class="text-3xl  font-bold my-4 ml-2"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent">About</span> Me :</div>
       <div class="text-sm ml-2 box-border flex inline-block">
         <div class="basis-2/3">
@@ -83,7 +91,7 @@ const Competences = [
       <skillBar :datas="Competences" title="compétences" class="mx-2"></skillBar>
     </div>
 
-</div>
+  </div>
 </template>
 
 
