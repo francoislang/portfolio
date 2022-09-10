@@ -30,7 +30,7 @@ const Competences = [
 
 <template>
   <div class="flex inline-block static ">
-    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white rounded top-0 -left-2/20 z-10">
+    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white  top-0 -left-2/20 z-10">
       <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
         <fa icon="fa-solid fa-user my-2"  />
         <span class="">About</span>
@@ -49,7 +49,7 @@ const Competences = [
       </router-link>
     </div>
 
-    <div class=" bg-white drop-shadow-xl scale-110 rounded-xl flex-row basis-1/3 ">
+    <div class=" bg-white drop-shadow-xl scale-110  flex-row basis-1/3 ">
       <img class="scale-50 border-4 border-[#5f240f] rounded-full" src="@/assets/photo_cv_uploaded.jpg" alt="">
       <ul class="">
         <li class="pt-4 text-2xl font-bold bg-white">François-Frédéric Lang</li>
@@ -65,7 +65,7 @@ const Competences = [
         <fa icon="fa-solid fa-arrow-right" /></a>
       </div>
     </div>
-    <div class="bg-white text-left basis-2/3 p-5 rounded-xl overflow-y-hidden overflow-y-scroll">
+    <div class="bg-white text-left basis-2/3 p-5  overflow-y-hidden overflow-y-scroll">
       <div class="text-3xl  font-bold my-4 ml-2"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent">About</span> Me :</div>
       <div class="text-sm ml-2 box-border flex inline-block">
         <div class="basis-2/3">
