@@ -4,20 +4,20 @@
 
 <template>
   <div class="flex inline-block static ">
-    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white  top-0 -left-2/20 z-10">
-      <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-[#d9c4b6]  top-0 -left-2/20 z-10">
+      <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-white">
         <fa icon="fa-solid fa-user my-2"  />
         <span class="">About</span>
       </router-link>
-      <router-link to="/WorkPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+      <router-link to="/WorkPage" class="grid grid-cols-1 place-items-center hover:text-white">
         <fa icon="fa-solid fa-briefcase" class="my-2" />
         <span>Work</span>
       </router-link>
-      <router-link to="/ResumePage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]" >
+      <router-link to="/ResumePage" class="grid grid-cols-1 place-items-center hover:text-white" >
         <fa icon="fa-solid fa-file" class="my-2" />
         <span>Resume</span>
       </router-link>
-      <router-link to="/ContactPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+      <router-link to="/ContactPage" class="grid grid-cols-1 place-items-center hover:text-white">
         <fa icon="fa-solid fa-at" class="my-2"/>
         <span>Contact</span>
       </router-link>
@@ -39,7 +39,7 @@
           <fa icon="fa-solid fa-arrow-right" /></a>
       </div>
     </div>
-    <div class="grid grid-cols-1 bg-white text-left basis-2/3 p-5 overflow-y-hidden overflow-y-scroll">
+    <div class="grid grid-cols-1 bg-white text-left basis-2/3 p-5 overflow-y-hidden overflow-y-scroll animate-reveal">
       <div class="w-full h-full m-1">
         <div class="grid w-full h-fit grid-cols-2">
           <input type="text" placeholder="Nom" class="p-2 basis-1/2 mr-3 border-b-2 border-[#5f240f] focus:placeholder-transparent outline-0">

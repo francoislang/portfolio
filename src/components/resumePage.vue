@@ -3,20 +3,20 @@
 
 <template>
   <div class="flex inline-block static ">
-    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-white  top-0 -left-2/20 z-10">
-      <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+    <div class="absolute grid grid-cols-1 place-items-center p-3 text-[#5f240f] bg-[#d9c4b6]  top-0 -left-2/20 z-10">
+      <router-link to="/MainPage"  class="grid grid-cols-1 place-items-center hover:text-white  ">
         <fa icon="fa-solid fa-user my-2"  />
         <span class="">About</span>
       </router-link>
-      <router-link to="/WorkPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+      <router-link to="/WorkPage" class="grid grid-cols-1 place-items-center hover:text-white">
         <fa icon="fa-solid fa-briefcase" class="my-2" />
         <span>Work</span>
       </router-link>
-      <router-link to="/ResumePage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]" >
+      <router-link to="/ResumePage" class="grid grid-cols-1 place-items-center hover:text-white" >
         <fa icon="fa-solid fa-file" class="my-2" />
         <span>Resume</span>
       </router-link>
-      <router-link to="/ContactPage" class="grid grid-cols-1 place-items-center hover:text-[#5f240f]">
+      <router-link to="/ContactPage" class="grid grid-cols-1 place-items-center hover:text-white">
         <fa icon="fa-solid fa-at" class="my-2"/>
         <span>Contact</span>
       </router-link>
@@ -34,13 +34,13 @@
         </li>
       </ul>
       <div class="bg-white flex justify-end rounded-b-xl">
-        <a class="text-[#5f240f] rounded-full px-1 hover:translate-x-1.5  hover:text-[#5f240f] mb-4 mr-4" href="mailto:langfrancoisfrederic@gmail.com">CONTACT ME
+        <a class="text-[#5f240f] px-1 hov:text-[#5f240f] mb-4 mr-4" href="mailto:langfrancoisfrederic@gmail.com">CONTACT ME
           <fa icon="fa-solid fa-arrow-right" /></a>
       </div>
     </div>
-    <div class="bg-white text-left basis-2/3 p-5  grid grid-cols-1 overflow-y-hidden overflow-y-scroll ">
-      <div class="w-full h-fit p-6 bg-white drop-shadow-md">
-        <div class="py-3 text-3xl font-bold"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent">MSC pro</span> spécialité: intelligence artificielle</div>
+    <div class="bg-white text-left basis-2/3 p-5  grid grid-cols-1 overflow-y-hidden overflow-y-scroll animate-reveal ">
+      <div class="w-full h-fit p-6 bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6]">
+        <div class="py-3 text-3xl font-bold">MSC pro spécialité: intelligence artificielle</div>
         <div class="py-2  text-2xl text-[#5f240f]">Epitech Nancy</div>
         <div class="py-2 italic text-xl">2022-2025</div>
         <div>
@@ -51,8 +51,8 @@
         </div>
       </div>
 
-      <div class="w-full h-fit p-5 my-2 bg-white drop-shadow-md">
-        <div class="py-3 text-3xl font-bold"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent">Master</span> physique théorique spécialité: matière condensée</div>
+      <div class="w-full h-fit p-5  bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6]">
+        <div class="py-3 text-3xl font-bold">Master physique théorique spécialité: matière condensée</div>
         <diV class="py-2 text-2xl text-[#5f240f]">Faculté des Sciences et technologies Nancy</diV>
         <div class="py-2 italic text-xl">2021</div>
         <div>
@@ -63,8 +63,8 @@
         </div>
       </div>
 
-      <div class="w-full h-fit p-5 my-2 bg-white drop-shadow-md">
-        <div class="py-3 text-3xl font-bold"><span class="text-[#5f240f] bg-gradient-to-r from-[#d9c4b6] to-transparent ">Licence</span> Physique-chimie, spécialité: physique</div>
+      <div class="w-full h-fit p-5  bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6]">
+        <div class="py-3 text-3xl font-bold"> Licence Physique-chimie spécialité: physique</div>
         <diV class="py-2 text-2xl text-[#5f240f]">Faculté des Sciences et technologies Nancy</diV>
         <div class="py-2 italic text-xl">2018</div>
         <div>
