@@ -52,7 +52,7 @@
           <input type="email" placeholder="Mail" class="p-2 my-1 border-b-2 w-full border-[#5f240f] focus:placeholder-transparent outline-0">
         </div>
         <div class="w-full h-1/2 mt-4">
-          <textarea type="text" placeholder="Votre message..." class="p-2 bg-[#d9c4b6] placeholder-white h-full w-full max-h-full focus:placeholder-transparent outline-0 "></textarea>
+          <textarea type="text" placeholder="Votre message..." class="p-2 bg-[#d9c4b6] placeholder-white text-white h-full w-full max-h-full focus:placeholder-transparent outline-0 "></textarea>
         </div>
         <div class="grid place-items-center h-fit text-[#5f240f] mt-5 ">
           <button class="border-none focus:outline-0 hover:bg-[#d9c4b6] hover:text-white hover:animate-pulse p-2">Envoyer</button>

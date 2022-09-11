@@ -49,15 +49,17 @@
       </div>
     </div>
 
-    <div class="w-full h-fit p-5  bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6] ">
-      <div class="py-3 text-3xl font-bold ">Super Mario Bros</div>
-      <div class="py-2 italic text-2xl text-[#5f240f]">Outils : Java</div>
+    <div class="flex flex-row w-full h-fit p-5  bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6] ">
       <div>
-        <p>
-          Afin d'étudier le langage Java, j'ai réalisé, à l'aide d'un tutoriel, un niveau similaire à ceux disponibles sur Super Mario Bros.
-        </p>
+        <div class="py-3 text-3xl font-bold ">Super Mario Bros</div>
+        <div class="py-2 italic text-2xl text-[#5f240f]">Outils : Java</div>
+        <div>
+          <p>
+            Afin d'étudier le langage Java, j'ai réalisé, à l'aide d'un tutoriel, un niveau similaire à ceux disponibles sur Super Mario Bros.
+          </p>
+        </div>
       </div>
-
+      <img src="@/assets/video-mario.gif" type="video/gif" class="w-1/2 h-1/2">
     </div>
 
     <div class=" flex flex-row w-full h-fit p-5  bg-white duration-1000 hover:drop-shadow-md hover:bg-[#d9c4b6]">
